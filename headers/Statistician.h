@@ -104,5 +104,5 @@ bool Statistician::equalStatistician(const Statistician& otherStatistician) cons
     getStatistician(l1,h1,s1);
     otherStatistician.getStatistician(l2,h2,s2);
     // return (l1 == l2 && h1 == h2 && s1 == s2);
-    return (lowest == otherStatistician.lowest && highest == otherStatistician.highest && sum == otherStatistician.sum);
+    return ((lowest == otherStatistician.lowest) && (highest == otherStatistician.highest) && (sum == otherStatistician.sum));
 }
