@@ -1,7 +1,5 @@
 #include <iostream>
-#include <stdexcept> // needed to throw exceptions
 #include <iomanip>   // needed to format output
-#include <math.h>    // needed to perform area computation
 #include "Computation.h"
 // use C++ standard libary namespace
 using namespace std;
